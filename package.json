@@ -1,0 +1,28 @@
+{
+  "name": "sst-minimal-template",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "sst dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "remove": "sst remove",
+    "sso": "aws sso login --profile aws-profile --no-browser",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "sst": "3.3.59"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.11.2",
+    "@types/aws-lambda": "8.10.146",
+    "eslint": "^9.16.0",
+    "typescript": "^5.7.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

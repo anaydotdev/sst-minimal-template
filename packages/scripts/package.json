@@ -1,0 +1,17 @@
+{
+  "name": "@sst-minimal-template/scripts",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@sst-minimal-template/scripts": "*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
