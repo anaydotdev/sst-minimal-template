@@ -1,3 +1,5 @@
-function handler() {}
+function handler() {
+  return null
+}
 
-export { handler };
+export { handler }

@@ -6,11 +6,11 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@sst-minimal-template/scripts": "*"
+    "@sst-minimal-template/db": "*"
   }
 }
